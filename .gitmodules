@@ -1,0 +1,45 @@
+[submodule "register"]
+	path = register
+	url = https://github.com/RusPiRo/ruspiro-register.git
+[submodule "boot"]
+	path = boot
+	url = https://github.com/RusPiRo/ruspiro-boot.git
+[submodule "mailbox"]
+	path = mailbox
+	url = https://github.com/RusPiRo/ruspiro-mailbox.git
+[submodule "uart"]
+	path = uart
+	url = https://github.com/RusPiRo/ruspiro-uart.git
+[submodule "console"]
+	path = console
+	url = https://github.com/RusPiRo/ruspiro-console.git
+[submodule "timer"]
+	path = timer
+	url = https://github.com/RusPiRo/ruspiro-timer.git
+[submodule "cache"]
+	path = cache
+	url = https://github.com/RusPiRo/ruspiro-cache.git
+[submodule "interrupt"]
+	path = interrupt
+	url = https://github.com/RusPiRo/ruspiro-interrupt.git
+[submodule "lock"]
+	path = lock
+	url = https://github.com/RusPiRo/ruspiro-lock.git
+[submodule "gpio"]
+	path = gpio
+	url = https://github.com/RusPiRo/ruspiro-gpio.git
+[submodule "core"]
+	path = core
+	url = https://github.com/RusPiRo/ruspiro-core.git
+[submodule "brain"]
+	path = brain
+	url = https://github.com/RusPiRo/ruspiro-brain.git
+[submodule "btle"]
+	path = btle
+	url = https://github.com/RusPiRo/ruspiro-btle.git
+[submodule "singleton"]
+	path = singleton
+	url = https://github.com/RusPiRo/ruspiro-singleton.git
+[submodule "allocator"]
+	path = allocator
+	url = https://github.com/RusPiRo/ruspiro-allocator.git

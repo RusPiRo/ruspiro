@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "boot",
+    "cache",
+    "console",
+    "core",
+    "gpio",
+    "interrupt",
+    "lock",
+    "mailbox",
+    "register",
+    "singleton",
+    "timer",
+    "uart"
+]
