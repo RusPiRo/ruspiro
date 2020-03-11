@@ -1,6 +1,10 @@
 [workspace]
 members = [
     "boot",
+    "brain",
+    "brain/macros",
+    "btle",
+    "btle/pi_test",
     "cache",
     "console",
     "core",
