@@ -1,0 +1,16 @@
+[workspace]
+
+[package]
+name = "plugin"
+version = "0.0.1"
+publish = false
+edition = "2018"
+panic = "abort"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ruspiro-gpio-hal = { path = "../../gpio-hal", version = "0" }
+ruspiro-singleton = { path = "../../singleton", version = "0.3" }
+ruspiro-allocator = { path = "../../allocator", version = "0.4" }

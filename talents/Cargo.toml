@@ -1,0 +1,24 @@
+[package]
+name = "ruspiro-talents"
+authors = ["André Borrmann <pspwizard@gmx.de>"]
+version = "0.1.0" # remember to update html_root_url
+description = """
+This crate provide the traits defining the talents used within the RusPiRo
+kernel. This could be behaviors or capabilities at the moment.
+"""
+license = "Apache-2.0"
+repository = "https://github.com/RusPiRo/ruspiro-talents/tree/v0.1.0"
+documentation = "https://docs.rs/ruspiro-talents/0.1.0"
+readme = "README.md"
+keywords = ["RusPiRo", "characteristics", "baremetal", "raspberrypi"]
+categories = ["no-std", "embedded"]
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "RusPiRo/ruspiro-talents", branch = "master" }
+maintenance = { status = "actively-developed" }
+
+[lib]
+
+[dependencies]
+ruspiro-core = { path = "../core" }

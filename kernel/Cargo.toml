@@ -1,0 +1,25 @@
+[package]
+name = "ruspiro-kernel"
+authors = ["André Borrmann <pspwizard@gmx.de>", "2ndTaleStudio <pspwizard@gmx.de>"]
+version = "0.0.1"
+license = "Apache-2.0"
+publish = false
+edition = "2018"
+description = """
+This is the kernel of the RusPiRo OS
+"""
+
+[[bin]]
+name = "kernel"
+path = "./src/kernel.rs"
+
+[dependencies]
+ruspiro-allocator = "0.4"
+ruspiro-boot = { version = "0.3", features = ["with_panic", "ruspiro_pi3"] }
+ruspiro-core = { path = "../core" }
+ruspiro-talents = { path = "../talents" }
+ruspiro-mailbox = { version = "0.3", features = ["ruspiro_pi3"] }
+ruspiro-uart = { version = "0.3", features = ["ruspiro_pi3"] }
+ruspiro-gpio = { version = "0.4", features = ["ruspiro_pi3"] }
+ruspiro-interrupt = "0.3"
+ruspiro-brain = { path = "../brain" }

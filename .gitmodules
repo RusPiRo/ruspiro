@@ -43,3 +43,12 @@
 [submodule "allocator"]
 	path = allocator
 	url = https://github.com/RusPiRo/ruspiro-allocator.git
+[submodule "loader"]
+	path = loader
+	url = https://github.com/RusPiRo/ruspiro-loader.git
+[submodule "error"]
+	path = error
+	url = https://github.com/RusPiRo/ruspiro-error.git
+[submodule "gpio-hal"]
+	path = gpio-hal
+	url = https://github.com/RusPiRo/ruspiro-gpio-hal.git

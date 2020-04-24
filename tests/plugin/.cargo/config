@@ -1,0 +1,12 @@
+# Build configuration for the RusPiRo Kernel
+
+[build]
+target = "aarch64-unknown-linux-gnu"
+rustflags = [
+    "-C", "target-cpu=cortex-a53",
+    "-C", "target-feature=+strict-align,+a53,+fp-armv8,+neon",
+    "-C", "link-arg=-nostartfiles"
+]
+
+[target.aarch64-unknown-linux-gnu]
+linker = "aarch64-elf-gcc"

@@ -8,12 +8,31 @@ members = [
     "cache",
     "console",
     "core",
+    "error",
     "gpio",
+    "gpio-hal",
     "interrupt",
+    "kernel",
     "lock",
     "mailbox",
     "register",
     "singleton",
+    "talents",
     "timer",
     "uart"
 ]
+
+[patch.crates-io]
+ruspiro-boot = { path = "./boot" }
+ruspiro-register = { path = "./register" }
+ruspiro-cache = { path = "./cache" }
+ruspiro-allocator = { path = "./allocator" }
+ruspiro-lock = { path = "./lock" }
+ruspiro-singleton = { path = "./singleton" }
+ruspiro-console = { path = "./console" }
+ruspiro-interrupt = { path = "./interrupt" }
+ruspiro-timer = { path = "./timer" }
+ruspiro-gpio = { path = "./gpio" }
+ruspiro-uart = { path = "./uart" }
+ruspiro-mailbox = { path = "./mailbox" }
+
