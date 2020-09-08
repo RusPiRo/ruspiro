@@ -13,7 +13,7 @@
 
 #![doc(html_root_url = "https://docs.rs/ruspiro-kernel/0.1.0")]
 #![cfg_attr(not(any(test, doctest)), no_std)]
-#![feature(asm)]
+#![feature(llvm_asm)]
 #![no_main]
 
 // need to use extern crate ruspiro_allocator to get the allocator into scope for
@@ -129,7 +129,7 @@ fn run(core: u32) -> ! {
         #[cfg(any(target_arch = "arm", target_arch = "aarch64"))]
         unsafe {
             //info!("core {} is going to sleep.", core);
-            asm!("wfe");
+            llvm_asm!("wfe");
             //info!("core {} woken by an event.", core);
         }
     }
